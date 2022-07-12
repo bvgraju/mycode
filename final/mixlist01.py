@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 """This program has 
-   different aspects of list processin
+   picks from the list the IP addresses
+   a) should be a string
+   b) should have three dots
 """
 
 # first create the list with IP, port and state
