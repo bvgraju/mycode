@@ -29,6 +29,13 @@ print("IPs are: ",realIp[0], realIp[1])
 #third way
 import ipaddress
 print("IPs are,")
+realIPs = []
+
 for ip in iplist:
-    try ipaddress.ip_address(ip):
-      print(ip)
+
+    #try ipaddress.ip_address(ip):
+    if type(ip) == str:
+        print(ip)
+        if len(str(ip).split(".") == 4):
+          realIPs.append(ip)
+          print(ip)
