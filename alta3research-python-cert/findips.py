@@ -8,10 +8,18 @@ import csv
         a) should be a string
         b) should have three dots
         c) all four elements are numbers
+    Author  Date        Change Log
+    -----   ----        --------------------------
+    Raju    07/14/2022  Initial
 """
 
-""" Define a list with some strings that are ip addresses, 
-    numbers, and strings that are not numbers 
+""" Pre-requisites -
+    Craete infile.csv CSV file with some strings that are ip addresses, 
+    numbers, and strings that are not numbers
+
+    Output -
+    Generates another CSV file called IPOut.csv with only the ip addresses 
+    found in the infile.csv
 """
 
 def main():
@@ -20,7 +28,7 @@ def main():
         reader = csv.reader(infile)
         inlist = list(reader)
 
-    print ("\n\nInitial List was, \n", inlist) # First print the original list
+#    print ("\n\nInitial List was, \n", inlist) # First print the original list
 
     IPsOut = []
 
@@ -37,7 +45,7 @@ def main():
     
         IPsOut.append(IPsInLine)
 
-    print("\n\n Identified IPs are: \n", IPsOut)
+#    print("\n\n Identified IPs are: \n", IPsOut)
 
     """ Now write list to the file
     """
