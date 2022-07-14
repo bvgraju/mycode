@@ -39,10 +39,9 @@ def main():
 
     print("\n\n Identified IPs are: \n", IPsOut)
 
-""" Now write list to the file
-"""
-
-# writing the data into the file
+    """ Now write list to the file
+    """
+    # writing the data into the file
     with open("IPOut.csv", "w") as file:
         write = csv.writer(file)
         write.writerows(IPsOut)
