@@ -9,8 +9,7 @@ Need to have the inbound file by name infile.csv located in the same folder as t
 
 ### Prerequisites
 
-What things are needed to install the software and how to install them. For now, maybe copy in
-"how to install python and python3 using apt."
+Need to have the csv file with input data in same folder as the findips.py
 
 ## Built With
 
@@ -18,4 +17,4 @@ What things are needed to install the software and how to install them. For now,
 
 ## Authors
 
-* **Raju Bodapati** - *Initial work* - [YourWebsite](https://example.com/)
+* **Raju Bodapati** - *Initial work* - [Raju Bodapati](https://github.com/bvgraju)
